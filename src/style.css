@@ -1,1 +1,38 @@
+:root {
+  --branding-color: #840011;
+  --secondary-color: #4a4747;
+  --heading-font-family: "Playfair Display";
+}
 
+body {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+.hero {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 160px 20px;
+}
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: var(--heading-font-family);
+}
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 2;
+}
+.hero p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+  font-family: var(--heading-font-family);
+}
