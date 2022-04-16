@@ -1,15 +1,16 @@
 :root {
-  --branding-color: #840011;
+  --branding-color: #000000;
   --secondary-color: #4a4747;
-  --heading-font-family: "Playfair Display";
+  --heading-font-family: "Playfair Display", serif;
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: var(--branding-color);
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #fff;
 }
 .hero {
