@@ -4,15 +4,6 @@
   --primary-color: #000;
   --heading-font-family: "Playfair Display", serif;
 }
-@media (max-width 960px) {
-  .hero h1 {
-    font-size: 45px;
-  }
-  .project-description {
-    padding: 0px;
-    text-align: center;
-  }
-}
 
 body {
   background-color: var(--primary-color);
@@ -66,4 +57,16 @@ p {
 }
 .project-description {
   padding: 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
 }
