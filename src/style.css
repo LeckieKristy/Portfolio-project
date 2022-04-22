@@ -58,13 +58,25 @@ p {
 .project-description {
   padding: 60px;
 }
-@media (max-width: 800px) {
-  h1 {
-    font-size: 60px;
-    line-height: 1.5;
-  }
-  .project-description {
-    padding: 0px;
+
+.about-me h5 {
+  color: var(--branding-color);
+  margin-top: 20px;
+}
+
+.about-me h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.about-me-icons {
+  padding: 10px;
+  font-size: 30px;
+}
+@media (max-width: 900px) {
+  .about-me-description {
     text-align: center;
   }
 }
