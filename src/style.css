@@ -59,19 +59,24 @@ p {
   padding: 60px;
 }
 
-.about-me h5 {
+.content-container h5 {
   color: var(--branding-color);
   margin-top: 20px;
 }
 
-.about-me h1 {
+.content-container h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   margin-bottom: 10px;
   line-height: 1.5;
 }
+.content h1 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+  padding: 50px;
+}
 
-.about-me-icons {
+.content-icons {
   padding: 10px;
   font-size: 30px;
 }
