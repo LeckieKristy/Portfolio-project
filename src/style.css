@@ -84,4 +84,12 @@ p {
   .about-me-description {
     text-align: center;
   }
+  .arrow-side {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .arrow-up-and-down {
+    display: none;
+  }
 }
