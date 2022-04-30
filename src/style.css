@@ -58,6 +58,10 @@ p {
 .project-description {
   padding: 60px;
 }
+.content-container h3 {
+  color: var(--branding-color);
+  margin-top: 20px;
+}
 
 .content-container h5 {
   color: var(--branding-color);
