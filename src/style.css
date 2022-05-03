@@ -79,6 +79,10 @@ p {
   font-size: 45px;
   padding: 50px;
 }
+.content a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .content-icons {
   padding: 10px;
