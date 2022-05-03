@@ -88,6 +88,11 @@ p {
   padding: 10px;
   font-size: 30px;
 }
+
+.active {
+  color: var(--branding-color) !important;
+  font-weight: bold;
+}
 @media (max-width: 900px) {
   .about-me-description {
     text-align: center;
