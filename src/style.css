@@ -88,6 +88,30 @@ p {
   padding: 10px;
   font-size: 30px;
 }
+footer {
+  margin: 60px 0;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  opacity: 40%;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .content-icons a {
+  margin: 0 20px;
+  color: var(--branding-color);
+}
+footer .content-icons a:hover {
+  color: white;
+}
 
 .active {
   color: var(--branding-color) !important;
