@@ -91,7 +91,6 @@ p {
 footer {
   background-color: var(--secondary-color);
   opacity: 40%;
-  margin: 75px 20px;
   border-radius: 10px;
 }
 
@@ -123,6 +122,12 @@ footer .content-icons a:hover {
   }
   .arrow-side {
     display: none;
+  }
+  .hero h1 {
+    font-size: 55px;
+  }
+  .content h1 {
+    font-size: 32px;
   }
 }
 @media (min-width: 900px) {
