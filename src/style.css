@@ -111,6 +111,10 @@ footer .content-icons a {
 footer .content-icons a:hover {
   color: white;
 }
+footer .footer-note {
+  text-align: center;
+  color: #fff;
+}
 
 .active {
   color: var(--branding-color) !important;
